@@ -1,0 +1,1428 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>vCard - Personal Portfolio</title>
+
+  <!--
+    - favicon
+  -->
+  <link rel="shortcut icon" href="./assets/images/logo.ico" type="image/x-icon">
+
+  <!--
+    - custom css link
+  -->
+  <link rel="stylesheet" href="./assets/css/style.css">
+
+  <!--
+    - google font link
+  -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap" rel="stylesheet">
+</head>
+
+<body>
+
+  <!--
+    - #MAIN
+  -->
+
+  <main>
+
+    <!--
+      - #SIDEBAR
+    -->
+
+    <aside class="sidebar" data-sidebar>
+
+      <div class="sidebar-info">
+
+        <figure class="avatar-box">
+          <img src="./assets/images/Mine.jpg" alt="Pragya Soni" width="80">
+        </figure>
+
+        <div class="info-content">
+          <h1 class="name" title="Pragya Soni">Pragya Soni</h1>
+
+          <p class="title">Senior Content Writer & Strategist</p>
+        </div>
+
+        <button class="info_more-btn" data-sidebar-btn>
+          <span>Show Contacts</span>
+
+          <ion-icon name="chevron-down"></ion-icon>
+        </button>
+
+      </div>
+
+      <div class="sidebar-info_more">
+
+        <div class="separator"></div>
+
+        <ul class="contacts-list">
+
+          <li class="contact-item">
+
+            <div class="icon-box">
+              <ion-icon name="mail-outline"></ion-icon>
+            </div>
+
+            <div class="contact-info">
+              <p class="contact-title">Email</p>
+
+              <a href="mailto:writerpragyasoni@gmail.com" class="contact-link">writerpragyasoni@gmail.com</a>
+            </div>
+
+          </li>
+
+          <li class="contact-item">
+
+            <div class="icon-box">
+              <ion-icon name="phone-portrait-outline"></ion-icon>
+            </div>
+
+            <div class="contact-info">
+              <p class="contact-title">Phone</p>
+
+              <a href="tel:+919306776070" class="contact-link">+91 9306776070</a>
+            </div>
+
+          </li>
+
+          <li class="contact-item">
+
+            <div class="icon-box">
+              <ion-icon name="calendar-outline"></ion-icon>
+            </div>
+
+            <div class="contact-info">
+              <p class="contact-title">Birthday</p>
+
+              <time datetime="1982-06-23">March 13, 2000</time>
+            </div>
+
+          </li>
+
+          <li class="contact-item">
+
+            <div class="icon-box">
+              <ion-icon name="location-outline"></ion-icon>
+            </div>
+
+            <div class="contact-info">
+              <p class="contact-title">Location</p>
+
+              <address>Ambala, Punjab</address>
+            </div>
+
+          </li>
+
+        </ul>
+
+        <div class="separator"></div>
+
+        <ul class="social-list">
+
+          <li class="social-item">
+            <a href="#" class="social-link">
+              <ion-icon name="logo-facebook"></ion-icon>
+            </a>
+          </li>
+
+          <li class="social-item">
+            <a href="#" class="social-link">
+              <ion-icon name="logo-twitter"></ion-icon>
+            </a>
+          </li>
+
+          <li class="social-item">
+            <a href="#" class="social-link">
+              <ion-icon name="logo-instagram"></ion-icon>
+            </a>
+          </li>
+
+        </ul>
+
+      </div>
+
+    </aside>
+
+
+
+
+
+    <!--
+      - #main-content
+    -->
+
+    <div class="main-content">
+
+      <!--
+        - #NAVBAR
+      -->
+
+      <nav class="navbar">
+
+        <ul class="navbar-list">
+
+          <li class="navbar-item">
+            <button class="navbar-link  active" data-nav-link>About</button>
+          </li>
+
+          <li class="navbar-item">
+            <button class="navbar-link" data-nav-link>Resume</button>
+          </li>
+
+          <li class="navbar-item">
+            <button class="navbar-link" data-nav-link>Portfolio</button>
+          </li>
+
+          <li class="navbar-item">
+            <button class="navbar-link" data-nav-link>Blog</button>
+          </li>
+
+          <li class="navbar-item">
+            <button class="navbar-link" data-nav-link>Contact</button>
+          </li>
+
+        </ul>
+
+      </nav>
+
+
+
+
+
+      <!--
+        - #ABOUT
+      -->
+
+      <article class="about  active" data-page="about">
+
+        <header>
+          <h2 class="h2 article-title">About me</h2>
+        </header>
+
+        <section class="about-text">
+          <p>
+            I’m a Content Writer & Digital Strategist with 5+ years of experience helping brands boost visibility, engagement, and conversions through powerful content.
+            From SEO-driven blogs and high-performing email campaigns to social media strategies and Pinterest growth, I specialize in crafting content that works across platforms.
+          </p>
+
+          <p>
+            What sets me apart is my ability to blend storytelling with data. I don’t just write, I strategize. Every piece of content I create is backed by research, SEO, and audience insights to ensure it speaks to readers while meeting business goals.
+            Currently, I’m open to content writing and digital strategy roles where I can help brands tell stories that convert.
+          </p>
+        </section>
+
+
+        <!--
+          - service
+        -->
+
+        <section class="service">
+
+          <h3 class="h3 service-title">What i'm doing</h3>
+
+          <ul class="service-list">
+
+            <li class="service-item">
+
+              <div class="service-icon-box">
+                <img src="./assets/images/icon-design.svg
+                " alt="design icon" width="40">
+              </div>
+
+              <div class="service-content-box">
+                <h4 class="h4 service-item-title">Content Strategy & Planning</h4>
+
+                <p class="service-item-text">
+                  Strategizing content to meet your target audience, achieving marketing and business goals.
+                </p>
+              </div>
+
+            </li>
+
+            <li class="service-item">
+
+              <div class="service-icon-box">
+                <img src="./assets/images/icon-app.svg" alt="Web development icon" width="40">
+              </div>
+
+              <div class="service-content-box">
+                <h4 class="h4 service-item-title">Copywriting</h4>
+
+                <p class="service-item-text">
+                  Crafting persuasive, conversion-driven copy for emails, social media, and ads.
+                </p>
+              </div>
+
+            </li>
+
+            <li class="service-item">
+
+              <div class="service-icon-box">
+                <img src="./assets/images/icon-dev.svg" alt="mobile app icon" width="40">
+              </div>
+
+              <div class="service-content-box">
+                <h4 class="h4 service-item-title">SEO Blogs/ Article</h4>
+
+                <p class="service-item-text">
+                  Writing optimized website content, landing pages, articles, and blogs to rank higher on search engines.
+                </p>
+              </div>
+
+            </li>
+
+            <li class="service-item">
+
+              <div class="service-icon-box">
+                <img src="./assets/images/icon-photo.svg" alt="camera icon" width="40">
+              </div>
+
+              <div class="service-content-box">
+                <h4 class="h4 service-item-title">Social Media Content</h4>
+
+                <p class="service-item-text">
+                  Especially strong on Pinterest and other platforms, using engaging visuals and captions to boost reach and traffic.
+                </p>
+              </div>
+
+            </li>
+
+          </ul>
+
+        </section>
+
+
+        <!--
+          - testimonials
+        -->
+
+        <section class="testimonials">
+
+          <h3 class="h3 testimonials-title">Endorsements</h3>
+
+          <ul class="testimonials-list has-scrollbar">
+
+            <li class="testimonials-item">
+              <div class="content-card" data-testimonials-item>
+
+                <figure class="testimonials-avatar-box">
+                  <img src="./assets/images/Photo1.jpg" alt="Daniel lewis" width="60" data-testimonials-avatar>
+                </figure>
+
+                <h4 class="h4 testimonials-item-title" data-testimonials-title>Akshay Sharma</h4>
+
+                <div class="testimonials-text" data-testimonials-text>
+                  <p>
+                    I've had the opportunity to work with Pragya, and it was really amazing. 
+                    She is an excellent professional with skills that are surely going to boost your business. Being a hardworking, dedicated, and helpful individual, she's definitely an amazing team player. I got to learn a lot from her! 
+                    Kudos.
+                  </p>
+                </div>
+
+              </div>
+            </li>
+
+            <li class="testimonials-item">
+              <div class="content-card" data-testimonials-item>
+
+                <figure class="testimonials-avatar-box">
+                  <img src="./assets/images/Photo2.jpg" alt="Jessica miller" width="60" data-testimonials-avatar>
+                </figure>
+
+                <h4 class="h4 testimonials-item-title" data-testimonials-title>Chirag Pandey</h4>
+
+                <div class="testimonials-text" data-testimonials-text>
+                  <p>
+                    I highly recommend Pragya as a content writer. She has an exceptional ability to craft compelling and engaging content that resonates with the target audience. Pragya's writing is not only informative but also entertaining, making it a joy to read. She is a true professional, always meeting deadlines and going above and beyond to ensure client satisfaction. I have worked with Pragya on several projects, and she consistently delivers high-quality work.
+
+                  </p>
+                </div>
+
+              </div>
+            </li>
+
+            <li class="testimonials-item">
+              <div class="content-card" data-testimonials-item>
+
+                <figure class="testimonials-avatar-box">
+                  <img src="./assets/images/Photo3.jpg" alt="Emily evans" width="60" data-testimonials-avatar>
+                </figure>
+
+                <h4 class="h4 testimonials-item-title" data-testimonials-title>Mekhla Bhowmik</h4>
+
+                <div class="testimonials-text" data-testimonials-text>
+                  <p>
+                    She is a very confident, honest and learned content writer. I appreciate her attitude in understanding the requirements of the clients and then give her the best shop every time within the required time period. She has a very positive attitude towards everything so even personally she is a nice person to work with.
+                  </p>
+                </div>
+
+              </div>
+            </li>
+
+          </ul>
+
+        </section>
+
+
+        <!--
+          - testimonials modal
+        -->
+
+        <div class="modal-container" data-modal-container>
+
+          <div class="overlay" data-overlay></div>
+
+          <section class="testimonials-modal">
+
+            <button class="modal-close-btn" data-modal-close-btn>
+              <ion-icon name="close-outline"></ion-icon>
+            </button>
+
+            <div class="modal-img-wrapper">
+              <figure class="modal-avatar-box">
+                <img src="./assets/images/avatar-1.png" alt="Daniel lewis" width="80" data-modal-img>
+              </figure>
+
+              <img src="./assets/images/icon-quote.svg" alt="quote icon">
+            </div>
+
+            <div class="modal-content">
+
+              <h4 class="h3 modal-title" data-modal-title>Daniel lewis</h4>
+
+              <time datetime="2021-06-14">3 December, 2024</time>
+
+              <div data-modal-text>
+                <p>
+                  Richard was hired to create a corporate identity. We were very pleased with the work done. She has a
+                  lot of experience
+                  and is very concerned about the needs of client. Lorem ipsum dolor sit amet, ullamcous cididt
+                  consectetur adipiscing
+                  elit, seds do et eiusmod tempor incididunt ut laborels dolore magnarels alia.
+                </p>
+              </div>
+
+            </div>
+
+          </section>
+
+        </div>
+
+
+        <!--
+          - clients
+        -->
+
+        <section class="clients">
+
+          <h3 class="h3 clients-title">Clients Worked With</h3>
+
+          <ul class="clients-list has-scrollbar">
+
+            <li class="clients-item">
+              <a href="#">
+                <img src="./assets/images/wellnessextract_logo.jpg" alt="client logo">
+              </a>
+            </li>
+
+            <li class="clients-item">
+              <a href="#">
+                <img src="./assets/images/ITC_hotels.jpg" alt="client logo">
+              </a>
+            </li>
+
+            <li class="clients-item">
+              <a href="#">
+                <img src="./assets/images/Manforce.jpg" alt="client logo">
+              </a>
+            </li>
+
+            <li class="clients-item">
+              <a href="#">
+                <img src="./assets/images/Bummer.jpg" alt="client logo">
+              </a>
+            </li>
+
+            <li class="clients-item">
+              <a href="#">
+                <img src="./assets/images/Tuscany.png" alt="client logo">
+              </a>
+            </li>
+
+            <li class="clients-item">
+              <a href="#">
+                <img src="./assets/images/Furniture.jpg" alt="client logo">
+              </a>
+            </li>
+
+            <li class="clients-item">
+              <a href="#">
+                <img src="./assets/images/yaan_wellness_retreat_logo.jpg" alt="client logo">
+              </a>
+            </li>
+
+            <li class="clients-item">
+              <a href="#">
+                <img src="./assets/images/ifw_techno_creations_logo.jpg" alt="client logo">
+              </a>
+            </li>
+
+            <li class="clients-item">
+              <a href="#">
+                <img src="./assets/images/bhart.jpg" alt="client logo">
+              </a>
+            </li>
+
+          </ul>
+
+        </section>
+
+      </article>
+
+
+
+
+
+      <!--
+        - #RESUME
+      -->
+
+      <article class="resume" data-page="resume">
+
+        <header>
+          <h2 class="h2 article-title">Resume</h2>
+        </header>
+
+        <section class="timeline">
+
+          <div class="title-wrapper">
+            <div class="icon-box">
+              <ion-icon name="book-outline"></ion-icon>
+            </div>
+
+            <h3 class="h3">Education</h3>
+          </div>
+
+          <ol class="timeline-list">
+
+            <li class="timeline-item">
+
+              <h4 class="h4 timeline-item-title">Maharishi Markandeshwar University | Sadopur</h4>
+
+              <span>2018 - 2022</span>
+
+              <p class="timeline-text">
+                Bachelor's in Pharmacy | Grade: A
+              </p>
+
+            </li>
+
+            <li class="timeline-item">
+
+              <h4 class="h4 timeline-item-title">Jawahar Navodaya Vidyalaya (JNV)</h4>
+
+              <span>2013 - 2017</span>
+
+              <p class="timeline-text">
+              High School Diploma, Computer Science | Grade: A
+              </p>
+
+            </li>
+            <li class="timeline-item">
+
+              <h4 class="h4 timeline-item-title"> IIDE | Delhi</h4>
+
+              <span>2022</span>
+
+              <p class="timeline-text">
+                Digital Marketing Fundamentals
+              </p>
+
+            </li>
+          </ol>
+
+        </section>
+
+        <section class="timeline">
+
+          <div class="title-wrapper">
+            <div class="icon-box">
+              <ion-icon name="book-outline"></ion-icon>
+            </div>
+
+            <h3 class="h3">Experience</h3>
+          </div>
+
+          <ol class="timeline-list">
+
+            <li class="timeline-item">
+
+              <h4 class="h4 timeline-item-title">Senior Content Writer | Wellness Extract</h4>
+
+              <span>Haryana, India | Jan 2025 – Present</span>
+
+              <p class="timeline-text">
+Shaping the digital presence of a global wellness brand through SEO-driven, impactful content.
+Leading Quora & Pinterest marketing campaigns to enhance brand visibility and engagement.
+Developing email campaigns that nurture leads and boost customer retention.
+Collaborating with marketing teams to deliver multi-channel content strategies.
+              </p>
+
+            </li>
+
+            <li class="timeline-item">
+
+              <h4 class="h4 timeline-item-title">Senior Content Writer | VPRO Expertz</h4>
+
+              <span>Panchkula, Haryana | May 2023 – Jan 2025</span>
+
+              <p class="timeline-text">
+Designed content strategies for a US-based audience, driving growth in brand engagement.
+Produced SEO-optimized blogs, website copy, video scripts, and social campaigns.
+Balanced creative storytelling with data-driven insights to achieve measurable results.
+              </p>
+
+            </li>
+
+            <li class="timeline-item">
+
+              <h4 class="h4 timeline-item-title">Lead Content Writer | IFW Techno Creations Pvt. Ltd.</h4>
+
+              <span>Udaipur | May 2022 – Apr 2023</span>
+
+              <p class="timeline-text">
+Led content strategy and execution for clients across academia, tourism, IT, healthcare, and hospitality.
+Delivered blogs, long-form articles, infographics, and marketing collateral.
+Optimized landing pages and campaigns, boosting lead generation and conversions.
+              </p>
+
+            </li>
+            <li class="timeline-item">
+
+              <h4 class="h4 timeline-item-title">Technical Content Writer Intern | Analytics Steps</h4>
+
+              <span>Greater Delhi Area | Oct 2021 – Apr 2022</span>
+
+              <p class="timeline-text">
+Authored technical articles focused on blockchain, cryptocurrency, and emerging technologies.
+Simplified complex topics into clear, engaging, research-backed narratives.
+              </p>
+
+            </li>
+
+          </ol>
+
+        </section>
+
+        <section class="skill">
+
+          <h3 class="h3 skills-title">My skills</h3>
+
+          <ul class="skills-list content-card">
+
+            <li class="skills-item">
+
+              <div class="title-wrapper">
+                <h5 class="h5">Content Strategy</h5>
+              </div>
+            </li>
+
+            <li class="skills-item">
+
+              <div class="title-wrapper">
+                <h5 class="h5">Copywriting</h5>
+              </div>
+            </li>
+
+            <li class="skills-item">
+
+              <div class="title-wrapper">
+                <h5 class="h5">Keyword Research</h5>
+              </div>
+            </li>
+
+              <li class="skills-item">
+
+              <div class="title-wrapper">
+                <h5 class="h5">Emailers, PPC, and landing pages</h5>
+              </div>
+            </li>
+
+              <li class="skills-item">
+
+              <div class="title-wrapper">
+                <h5 class="h5">Content Publishing</h5>
+              </div>
+            </li>
+
+            <li class="skills-item">
+
+              <div class="title-wrapper">
+                <h5 class="h5">Search Engine Optmization</h5>
+              </div>
+            </li>
+            
+            <li class="skills-item">
+
+              <div class="title-wrapper">
+                <h5 class="h5">Social media content creation</h5>
+              </div>
+            </li>
+            <li class="skills-item">
+
+              <div class="title-wrapper">
+                <h5 class="h5">Proofreading and editings</h5>
+              </div>
+            </li>
+            <li class="skills-item">
+
+              <div class="title-wrapper">
+                <h5 class="h5">Google analytics and console</h5>
+              </div>
+            </li>
+            <li class="skills-item">
+
+              <div class="title-wrapper">
+                <h5 class="h5">Basic graphic designing (Canva)</h5>
+              </div>
+            </li>
+          </ul>
+
+        </section>
+
+      </article>
+
+
+
+
+
+      <!--
+        - #PORTFOLIO
+      -->
+
+      <article class="portfolio" data-page="portfolio">
+
+        <header>
+          <h2 class="h2 article-title">Portfolio</h2>
+        </header>
+
+        <section class="projects">
+
+          <ul class="filter-list">
+
+            <li class="filter-item">
+              <button class="active" data-filter-btn>All</button>
+            </li>
+
+            <li class="filter-item">
+              <button data-filter-btn>Webfolio</button>
+            </li>
+
+            <li class="filter-item">
+              <button data-filter-btn>Youtube Scripts</button>
+            </li>
+
+            <li class="filter-item">
+              <button data-filter-btn>Top Socials</button>
+            </li>
+            <li class="filter-item">
+              <button data-filter-btn>Projects</button>
+            </li>
+          </ul>
+
+          <div class="filter-select-box">
+
+            <button class="filter-select" data-select>
+
+              <div class="select-value" data-select-value>Select category</div>
+
+              <div class="select-icon">
+                <ion-icon name="chevron-down"></ion-icon>
+              </div>
+
+            </button>
+
+            <ul class="select-list">
+
+              <li class="select-item">
+                <button data-select-item>All</button>
+              </li>
+
+              <li class="select-item">
+                <button data-select-item>Webfolio</button>
+              </li>
+
+              <li class="select-item">
+                <button data-select-item>Youtube Scripts</button>
+              </li>
+              <li class="select-item">
+                <button data-select-item>Top Socials</button>
+              </li>
+                <li class="select-item">
+                <button data-select-item>Projects</button>
+              </li>
+
+            </ul>
+
+          </div>
+
+          <ul class="project-list">
+
+            <li class="project-item active" data-filter-item data-category="Webfolio">
+              <a href="https://manmatha.in/" target="_blank" rel="noopener noreferrer">
+
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+
+                  <img src="./assets/images/Manmath.jpg" alt="orizon" loading="lazy">
+                </figure>
+
+                <h3 class="project-title">Manmatha</h3>
+
+                <p class="project-category">Webfolio</p>
+
+              </a>
+            </li>
+            <li class="project-item active" data-filter-item data-category="Webfolio">
+              <a href="https://wellnessextract.com/?srsltid=AfmBOoq8khXGozT-rOjivfNRtNkePVlnDDrFIfAKhc8CQbTTMmMx1Um0" target="_blank" rel="noopener noreferrer">
+
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+
+                  <img src="./assets/images/Wellness_website.jpg" alt="orizon" loading="lazy">
+                </figure>
+
+                <h3 class="project-title">Wellness Extract</h3>
+
+                <p class="project-category">Webfolio</p>
+
+              </a>
+            </li>
+            <li class="project-item active" data-filter-item data-category="Webfolio">
+              <a href="https://somfood.in/" target="_blank" rel="noopener noreferrer">
+
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+
+                  <img src="./assets/images/Somfood.jpg" alt="orizon" loading="lazy">
+                </figure>
+
+                <h3 class="project-title">Somfood</h3>
+
+                <p class="project-category">Webfolio</p>
+
+              </a>
+            </li>
+
+            <li class="project-item active" data-filter-item data-category="Webfolio">
+              <a href="https://ramadaencoreindore.com/" target="_blank" rel="noopener noreferrer">
+
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+
+                  <img src="./assets/images/Ramada.jpg" alt="orizon" loading="lazy">
+                </figure>
+
+                <h3 class="project-title">Ramada</h3>
+
+                <p class="project-category">Webfolio</p>
+
+              </a>
+            </li>
+
+            <li class="project-item active" data-filter-item data-category="Webfolio">
+              <a href="https://www.yumeyafurniture.com/" target="_blank" rel="noopener noreferrer">
+
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+
+                  <img src="./assets/images/Yumeya.jpg" alt="orizon" loading="lazy">
+                </figure>
+
+                <h3 class="project-title">Yumeya Furniture</h3>
+
+                <p class="project-category">Webfolio</p>
+
+              </a>
+            </li>
+
+            <li class="project-item active" data-filter-item data-category="Webfolio">
+              <a href="https://tuscanypro.com/" target="_blank" rel="noopener noreferrer">
+
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+
+                  <img src="./assets/images/Tucany.jpg" alt="orizon" loading="lazy">
+                </figure>
+
+                <h3 class="project-title">Tuscanypro</h3>
+
+                <p class="project-category">Webfolio</p>
+
+              </a>
+            </li>
+
+            <li class="project-item active" data-filter-item data-category="Webfolio">
+              <a href="https://thecrewrajasthan.com/" target="_blank" rel="noopener noreferrer">
+
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+
+                  <img src="./assets/images/Rajisthan.jpg" alt="orizon" loading="lazy">
+                </figure>
+
+                <h3 class="project-title">Thecrewrajasthan</h3>
+
+                <p class="project-category">Webfolio</p>
+
+              </a>
+            </li>
+            <li class="project-item active" data-filter-item data-category="Webfolio">
+              <a href="https://www.ifwvenuezz.com/" target="_blank" rel="noopener noreferrer">
+
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+
+                  <img src="./assets/images/IFW.jpg" alt="orizon" loading="lazy">
+                </figure>
+
+                <h3 class="project-title">IFW</h3>
+
+                <p class="project-category">Webfolio</p>
+
+              </a>
+            </li>
+            <li class="project-item active" data-filter-item data-category="Webfolio">
+              <a href="https://www.traveltradeservice.com/" target="_blank" rel="noopener noreferrer">
+
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+
+                  <img src="./assets/images/TTS.jpg" alt="orizon" loading="lazy">
+                </figure>
+
+                <h3 class="project-title">Travel Trade Service</h3>
+
+                <p class="project-category">Webfolio</p>
+
+              </a>
+            </li>
+            <li class="project-item active" data-filter-item data-category="Youtube Scripts">
+              <a href="https://www.youtube.com/watch?v=tdDBt_F1kfA" target="_blank" rel="noopener noreferrer">
+
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+
+                  <img src="./assets/images/Y1.jpg" alt="orizon" loading="lazy">
+                </figure>
+
+                <h3 class="project-title">Mother. Leader. Healer | Terresa’s Story of Strength, Grit & Grace | Wellness Extract | Ep. 1</h3>
+
+                <p class="project-category">Youtube Scripts</p>
+
+              </a>
+            </li>
+            <li class="project-item active" data-filter-item data-category="Youtube Scripts">
+              <a href="https://www.youtube.com/watch?v=Sc-kbY3R0qc" target="_blank" rel="noopener noreferrer">
+
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+
+                  <img src="./assets/images/Y2.jpg" alt="orizon" loading="lazy">
+                </figure>
+
+                <h3 class="project-title">Rooted in Resilience | How Guelda Built a Community Through Compassion | Wellness Extract | Ep. 4</h3>
+
+                <p class="project-category">Youtube Scripts</p>
+
+              </a>
+            </li>
+             <li class="project-item active" data-filter-item data-category="Youtube Scripts">
+              <a href="https://www.youtube.com/watch?v=MwGpYHaYsqk" target="_blank" rel="noopener noreferrer">
+
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+
+                  <img src="./assets/images/Y3.jpg" alt="orizon" loading="lazy">
+                </figure>
+
+                <h3 class="project-title">7 Things Taylor Swift Does to Prep</h3>
+
+                <p class="project-category">Youtube Scripts</p>
+
+              </a>
+            </li>
+            </li>
+              <li class="project-item active" data-filter-item data-category="Youtube Scripts">
+              <a href="https://www.youtube.com/watch?v=n0hoQTsckIs" target="_blank" rel="noopener noreferrer">
+
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+
+                  <img src="./assets/images/Y4.jpg" alt="orizon" loading="lazy">
+                </figure>
+
+                <h3 class="project-title">BEST and WORST - Kardashian Jenner Parenting Styles</h3>
+
+                <p class="project-category">Youtube Scripts</p>
+
+              </a>
+            </li>
+            </li>
+              <li class="project-item active" data-filter-item data-category="Youtube Scripts">
+              <a href="https://www.youtube.com/watch?v=pq_UXWAS1cg" target="_blank" rel="noopener noreferrer">
+
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+
+                  <img src="./assets/images/Y5.jpg" alt="orizon" loading="lazy">
+                </figure>
+
+                <h3 class="project-title">justin and selena drama continues</h3>
+
+                <p class="project-category">Youtube Scripts</p>
+
+              </a>
+            </li>
+            </li>
+              <li class="project-item active" data-filter-item data-category="Top Socials">
+              <a href="https://ca.pinterest.com/pin/1022598659148323984/" target="_blank" rel="noopener noreferrer">
+
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+
+                  <img src="./assets/images/T1.jpg" alt="orizon" loading="lazy">
+                </figure>
+                <h3 class="project-title">Hormone Foods</h3>
+                <p class="project-category">Top Socials</p>
+
+              </a>
+            </li>
+            <li class="project-item active" data-filter-item data-category="Top Socials">
+              <a href="https://ca.pinterest.com/pin/1022598659148894246/" target="_blank" rel="noopener noreferrer">
+
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+
+                  <img src="./assets/images/T2.jpg" alt="orizon" loading="lazy">
+                </figure>
+                <h3 class="project-title">Healthy Pregnancy Diet</h3>
+                <p class="project-category">Top Socials</p>
+
+              </a>
+            </li>
+
+            <li class="project-item active" data-filter-item data-category="Top Socials">
+              <a href="https://ca.pinterest.com/pin/1022598659138965273/" target="_blank" rel="noopener noreferrer">
+
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+
+                  <img src="./assets/images/T3.jpg" alt="orizon" loading="lazy">
+                </figure>
+                <h3 class="project-title">Vitamin E Tocotrienol Supplements 125-300mg | High Absorption</h3>
+                <p class="project-category">Top Socials</p>
+
+              </a>
+            </li>
+            <li class="project-item active" data-filter-item data-category="Top Socials">
+              <a href="https://ca.pinterest.com/pin/1022598659149017815/" target="_blank" rel="noopener noreferrer">
+
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+
+                  <img src="./assets/images/T4.jpg" alt="orizon" loading="lazy">
+                </figure>
+                <h3 class="project-title">Day 1 Anti-Inflammatory Diet</h3>
+                <p class="project-category">Top Socials</p>
+
+              </a>
+            </li>
+            <li class="project-item active" data-filter-item data-category="Top Socials">
+              <a href="https://ca.pinterest.com/pin/1022598659145221358/" target="_blank" rel="noopener noreferrer">
+
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+
+                  <img src="./assets/images/T5.jpg" alt="orizon" loading="lazy">
+                </figure>
+                <h3 class="project-title">12 Menopause Myths</h3>
+                <p class="project-category">Top Socials</p>
+              </a>
+            </li>
+                        <li class="project-item active" data-filter-item data-category="Top Socials">
+              <a href="https://ca.pinterest.com/pin/1022598659148268243/" target="_blank" rel="noopener noreferrer">
+
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+
+                  <img src="./assets/images/T6.jpg" alt="orizon" loading="lazy">
+                </figure>
+                <h3 class="project-title">Hormones & Weight</h3>
+                <p class="project-category">Top Socials</p>
+              </a>
+            </li>
+
+            <li class="project-item active" data-filter-item data-category="Projects">
+              <a href="https://wellnessextract.com/pages/pragya-soni" target="_blank" rel="noopener noreferrer">
+
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+
+                  <img src="./assets/images/P1.jpg" alt="orizon" loading="lazy">
+                </figure>
+                <h3 class="project-title">Author Profile</h3>
+                <p class="project-category">Projects</p>
+              </a>
+            </li>
+            <li class="project-item active" data-filter-item data-category="Projects">
+              <a href="https://www.analyticssteps.com/author/pragya-soni" target="_blank" rel="noopener noreferrer">
+
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+
+                  <img src="./assets/images/P2.jpg" alt="orizon" loading="lazy">
+                </figure>
+                <h3 class="project-title">Technical Blogs</h3>
+                <p class="project-category">Projects</p>
+              </a>
+            </li>
+            <li class="project-item active" data-filter-item data-category="Projects">
+              <a href="https://ca.pinterest.com/wellnessextract/" target="_blank" rel="noopener noreferrer">
+
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+
+                  <img src="./assets/images/P3.jpg" alt="orizon" loading="lazy">
+                </figure>
+                <h3 class="project-title">Pinterest</h3>
+                <p class="project-category">Projects</p>
+              </a>
+            </li>
+
+
+          </ul>
+            
+
+        </section>
+
+      </article>
+
+
+
+
+
+      <!--
+        - #BLOG
+      -->
+
+      <article class="blog" data-page="blog">
+
+  <header>
+    <h2 class="h2 article-title">Blog</h2>
+  </header>
+
+  <section class="blog-posts">
+
+    <ul class="blog-posts-list">
+
+      <li class="blog-post-item">
+        <a href="https://wellnessextract.com/blogs/wellness/how-fast-horny-goat-weed-work" target="_blank" rel="noopener noreferrer">
+          <figure class="blog-banner-box">
+            <img src="./assets/images/B1.png" alt="Design conferences in 2022" loading="lazy">
+          </figure>
+          <div class="blog-content">
+            <div class="blog-meta">
+              <p class="blog-category"></p>
+            
+              <time datetime="2022-02-23"></time>
+            </div>
+            <h3 class="h3 blog-item-title">How Long Until You Feel the Effects</h3> 
+          </div>
+        </a>
+      </li>
+
+      <li class="blog-post-item">
+        <a href="https://somfood.in/5-health-benefits-of-roasted-seeds-with-cranberries/" target="_blank" rel="noopener noreferrer">
+          <figure class="blog-banner-box">
+            <img src="./assets/images/B2.png" alt="Best fonts every designer" loading="lazy">
+          </figure>
+          <div class="blog-content">
+            <div class="blog-meta">
+              <p class="blog-category"></p>
+             
+              <time datetime="2022-02-23"></time>
+            </div>
+            <h3 class="h3 blog-item-title">5 Health Benefits of Roasted Seeds With Cranberries</h3>
+            
+          </div>
+        </a>
+      </li>
+
+      <li class="blog-post-item">
+        <a href="https://wellnessextract.com/blogs/wellness/is-hydrogen-water-safe-for-kidneys" target="_blank" rel="noopener noreferrer">
+          <figure class="blog-banner-box">
+            <img src="./assets/images/B3.png" alt="Design digest #80" loading="lazy">
+          </figure>
+          <div class="blog-content">
+            <div class="blog-meta">
+              <p class="blog-category"></p>
+              <span class="dot"></span>
+              <time datetime="2022-02-23"></time>
+            </div>
+            <h3 class="h3 blog-item-title">Is Hydrogen Water Safe for Kidneys? The Science Behind</h3>
+           
+          </div>
+        </a>
+      </li>
+
+      <li class="blog-post-item">
+        <a href="https://wellnessextract.com/blogs/wellness/21-day-anti-inflammatory-diet-plan" target="_blank" rel="noopener noreferrer">
+          <figure class="blog-banner-box">
+            <img src="./assets/images/B4.png" alt="UI interactions of the week" loading="lazy">
+          </figure>
+          <div class="blog-content">
+            <div class="blog-meta">
+              <p class="blog-category"></p>
+              
+              <time datetime="2022-02-23"></time>
+            </div>
+            <h3 class="h3 blog-item-title">21-Day Anti-Inflammatory Diet Plan (with Free PDF Download)</h3>
+           
+          </div>
+        </a>
+      </li>
+
+      <li class="blog-post-item">
+        <a href="https://www.dpctechnology.com/2024/01/a-comprehensive-guide-to-seamless-email-tenant-migration/" target="_blank" rel="noopener noreferrer">
+          <figure class="blog-banner-box">
+            <img src="./assets/images/B5.png" alt="The forgotten art of spacing" loading="lazy">
+          </figure>
+          <div class="blog-content">
+            <div class="blog-meta">
+              <p class="blog-category"></p>
+              
+              <time datetime="2022-02-23"></time>
+            </div>
+            <h3 class="h3 blog-item-title">Email Tenant Migration: Everything You Need to Know</h3>
+            
+          </div>
+        </a>
+      </li>
+
+      <li class="blog-post-item">
+        <a href="https://www.hkascensions.com/post/the-pros-and-cons-of-flipping-houses-in-the-us" target="_blank" rel="noopener noreferrer">
+          <figure class="blog-banner-box">
+            <img src="./assets/images/B6.png" alt="Design digest #79" loading="lazy">
+          </figure>
+          <div class="blog-content">
+            <div class="blog-meta">
+              <p class="blog-category"></p>
+              
+              <time datetime="2022-02-23"></time>
+            </div>
+            <h3 class="h3 blog-item-title">The Pros and Cons of Flipping Houses</h3>
+           
+          </div>
+        </a>
+      </li>
+      <li class="blog-post-item">
+        <a href="https://wellnessextract.com/blogs/wellness/what-are-the-10-signs-of-low-potassium-you-should-know" target="_blank" rel="noopener noreferrer">
+          <figure class="blog-banner-box">
+            <img src="./assets/images/B7.png" alt="Low Potassium Signs" loading="lazy">
+          </figure>
+          <div class="blog-content">
+            <div class="blog-meta">
+              <p class="blog-category"></p>
+              <time datetime="2022-03-01"></time>
+            </div>
+            <h3 class="h3 blog-item-title">10 Warning Signs of Low Potassium You Can't Ignore</h3>
+            
+          </div>
+        </a>
+      </li>
+
+      <!-- Blog Item 8 -->
+      <li class="blog-post-item">
+        <a href="https://venuezz.com/viraasat-the-haveli-a-legacy-of-royal-taste/" target="_blank" rel="noopener noreferrer">
+          <figure class="blog-banner-box">
+            <img src="./assets/images/B8.png" alt="Viraasat Haveli" loading="lazy">
+          </figure>
+          <div class="blog-content">
+            <div class="blog-meta">
+              <p class="blog-category"></p>
+              <time datetime="2022-03-05"></time>
+            </div>
+            <h3 class="h3 blog-item-title">Viraasat The Haveli - A Legacy of Royal Taste</h3>
+           
+          </div>
+        </a>
+      </li>
+
+      <!-- Blog Item 9 -->
+      <li class="blog-post-item">
+        <a href="https://www.analyticssteps.com/blogs/basics-decision-intelligence" target="_blank" rel="noopener noreferrer">
+          <figure class="blog-banner-box">
+            <img src="./assets/images/B9.png" alt="Decision Intelligence" loading="lazy">
+          </figure>
+          <div class="blog-content">
+            <div class="blog-meta">
+              <p class="blog-category"></p>
+              <time datetime="2022-03-10"></time>
+            </div>
+            <h3 class="h3 blog-item-title">The Basics of Decision Intelligence</h3>
+            
+          </div>
+        </a>
+      </li>
+      <li class="blog-post-item">
+        <a href="https://www.analyticssteps.com/blogs/6-use-cases-ai-metaverse" target="_blank" rel="noopener noreferrer">
+          <figure class="blog-banner-box">
+            <img src="./assets/images/B10.png" alt="Decision Intelligence" loading="lazy">
+          </figure>
+          <div class="blog-content">
+            <div class="blog-meta">
+              <p class="blog-category"></p>
+              <time datetime="2022-03-10"></time>
+            </div>
+            <h3 class="h3 blog-item-title">6 Use Cases of AI in Metaverse</h3>
+            
+          </div>
+        </a>
+      </li>
+
+    </ul>
+
+  </section>
+
+</article>          
+
+
+
+
+
+      <!--
+        - #CONTACT
+      -->
+
+      <article class="contact" data-page="contact">
+
+        <header>
+          <h2 class="h2 article-title">Contact</h2>
+        </header>
+
+        <section class="mapbox" data-mapbox>
+          <figure>
+           <iframe
+  class="gmap_iframe"
+  frameborder="0"
+  scrolling="no"
+  marginheight="0"
+  marginwidth="0"
+  src="https://maps.google.com/maps?width=600&amp;height=400&amp;hl=en&amp;q=Chandigarh&amp;t=k&amp;z=14&amp;ie=UTF8&amp;iwloc=B&amp;output=embed">
+</iframe>
+          </figure>
+        </section>
+
+        <section class="contact-form">
+
+          <h3 class="h3 form-title">Contact Form</h3>
+
+          <form action="#" class="form" data-form>
+
+            <div class="input-wrapper">
+              <input type="text" name="fullname" class="form-input" placeholder="Full name" required data-form-input>
+
+              <input type="email" name="email" class="form-input" placeholder="Email address" required data-form-input>
+            </div>
+
+            <textarea name="message" class="form-input" placeholder="Your Message" required data-form-input></textarea>
+
+            <button class="form-btn" type="submit" disabled data-form-btn>
+              <ion-icon name="paper-plane"></ion-icon>
+              <span>Send Message</span>
+            </button>
+
+          </form>
+
+        </section>
+
+      </article>
+
+    </div>
+
+  </main>
+
+
+
+
+
+
+  <!--
+    - custom js link
+  -->
+  <script src="./assets/js/script.js"></script>
+
+  <!--
+    - ionicon link
+  -->
+  <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+  <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+
+</body>
+
+</html>
